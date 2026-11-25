@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vani Vashishtha | AI/ML Engineer & Quantitative Researcher</title>
+  <meta name="description" content="Portfolio of Vani Vashishtha — AI/ML Engineer & Quant Researcher. WorldQuant Research Consultant, Harvard HPAIR 2026 Delegate, Top 8% WorldQuant Brain IQC.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">Vani<span class="accent-text">.AI</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#interactive-lab" class="nav-link lab-badge-link">
+          <span>Interactive Labs</span>
+          <span class="nav-tag">Live</span>
+        </a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#honors" class="nav-link">Honors</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="btn-icon" title="Toggle Theme" aria-label="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <button class="btn btn-outline btn-sm resume-modal-trigger">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <span>Resume</span>
+        </button>
+        <button class="hamburger-menu" id="hamburgerBtn" aria-label="Toggle Navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <canvas id="neuralCanvas" class="hero-canvas"></canvas>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span>Open to AI/ML & Quantitative Research Roles</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Vani Vashishtha</span>
+            <span class="hero-subtitle-line">AIML Engineer & Quantitative Researcher</span>
+          </h1>
+
+          <p class="hero-description">
+            Combining rigorous mathematical modeling with deep learning and modern systems. 
+            Currently conducting research on algorithmic alpha strategies at <strong>WorldQuant</strong>, 
+            and engineering multimodal AI architectures with visual execution engines.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#interactive-lab" class="btn btn-glass">
+              <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>Test Interactive Labs</span>
+            </a>
+            <button class="btn btn-secondary resume-modal-trigger">
+              <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Resume</span>
+            </button>
+          </div>
+
+          <div class="social-quicklinks">
+            <a href="https://github.com/vani-max" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/vanivashishtha111/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://leetcode.com/u/vani_vashishtha11/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LeetCode (200+ Solved)">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <span>LeetCode (200+)</span>
+            </a>
+            <a href="https://www.kaggle.com/vanivashishtha" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Kaggle">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v8"></path><path d="M8 12h8"></path></svg>
+              <span>Kaggle</span>
+            </a>
+            <a href="mailto:vani.vashishtha2024@nst.rishihood.edu.in" class="social-icon-btn email-copy-btn" title="Copy Email">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>vani.vashishtha2024@nst.rishihood.edu.in</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Metric highlights strip -->
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-icon quant-accent">
+              <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            </div>
+            <div class="metric-value">Top 8%</div>
+            <div class="metric-label">WorldQuant Brain IQC Worldwide</div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon ai-accent">
+              <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+            </div>
+            <div class="metric-value">HPAIR '26</div>
+            <div class="metric-label">Harvard College Project Delegate</div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon code-accent">
+              <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <div class="metric-value">200+</div>
+            <div class="metric-label">LeetCode DSA Problems Solved</div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon acad-accent">
+              <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <div class="metric-value">8.6 / 10</div>
+            <div class="metric-label">B.Tech AI & ML CGPA</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging Mathematical Theory with Engineering Execution</h2>
+          <p class="section-lead">
+            I am an AIML engineer and quantitative researcher at Newton School of Technology (Rishihood University).
+            My work sits at the convergence of statistical learning, algorithmic alpha generation, and production-grade software.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel">
+            <div class="card-icon-header">
+              <div class="icon-box quant-bg">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              </div>
+              <h3>Quantitative Research & Alpha Modeling</h3>
+            </div>
+            <p>
+              Designing alpha signals across global equity markets using statistical operators, time-series transforms, 
+              signal ranking, correlation de-biasing, and multi-factor portfolio neutralization to maximize Sharpe ratio and information coefficients.
+            </p>
+            <div class="tech-pills">
+              <span>Time-Series Operators</span>
+              <span>Sharpe & Fitness Optimization</span>
+              <span>Portfolio Neutralization</span>
+              <span>Statistical Arbitrage</span>
+            </div>
+          </div>
+
+          <div class="about-card glass-panel">
+            <div class="card-icon-header">
+              <div class="icon-box ai-bg">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path><path d="M12 6v6l4 2"></path></svg>
+              </div>
+              <h3>Deep Learning & Multimodal Systems</h3>
+            </div>
+            <p>
+              Architecting convolutional neural networks and vision architectures, applying dropout regularization, 
+              and integrating state-of-the-art LLMs (Gemini, Groq) with RAG pipelines for procurement intelligence and automated decision engines.
+            </p>
+            <div class="tech-pills">
+              <span>Deep Learning (Keras/TF)</span>
+              <span>Computer Vision (CNNs)</span>
+              <span>RAG & Gemini LLMs</span>
+              <span>Multimodal Workflows</span>
+            </div>
+          </div>
+
+          <div class="about-card glass-panel">
+            <div class="card-icon-header">
+              <div class="icon-box code-bg">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3>Systems & Full-Stack Engineering</h3>
+            </div>
+            <p>
+              Building responsive visual DAG execution builders with Next.js, React Flow, TypeScript, and Prisma. 
+              Strong foundation in Data Structures, Algorithms (200+ LeetCode), and asynchronous background task processing.
+            </p>
+            <div class="tech-pills">
+              <span>Next.js & TypeScript</span>
+              <span>React Flow & DAGs</span>
+              <span>PostgreSQL & Prisma</span>
+              <span>DSA (LeetCode 200+)</span>
+            </div>
+          </div>
+
+          <div class="about-card glass-panel">
+            <div class="card-icon-header">
+              <div class="icon-box lead-bg">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <h3>Leadership & Competitive Spirit</h3>
+            </div>
+            <p>
+              Serving as Vice President of the Robotics Club and a 2x Competitions Department Lead. 
+              Active student athlete playing lawn tennis, bringing intense discipline, strategic focus, and teamwork to every technical challenge.
+            </p>
+            <div class="tech-pills">
+              <span>VP Robotics Club</span>
+              <span>Competitions Lead</span>
+              <span>Google Girl Hackathon</span>
+              <span>Lawn Tennis Athlete</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education Card -->
+        <div class="education-banner glass-panel mt-8">
+          <div class="edu-content">
+            <div class="edu-meta">
+              <div class="edu-year">2024 — 2028</div>
+              <div class="edu-badge">B.Tech (AI & ML)</div>
+            </div>
+            <div class="edu-details">
+              <h3>Newton School of Technology, Rishihood University</h3>
+              <p>Bachelor of Technology in Artificial Intelligence and Machine Learning</p>
+              <div class="edu-highlights">
+                <span><strong>CGPA:</strong> 8.6 / 10.0</span>
+                <span><strong>Focus:</strong> Machine Learning, Deep Neural Architectures, Optimization, Advanced Data Structures</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section bg-surface" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Career Journey</span>
+          <h2 class="section-title">Industry & Research Experience</h2>
+          <p class="section-lead">
+            Hands-on impact in quantitative asset modeling, predictive analytics, and enterprise AI pricing engines.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: WorldQuant -->
+          <div class="timeline-item">
+            <div class="timeline-dot quant-dot"></div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-header">
+                <div>
+                  <div class="company-badge quant-tag">Quantitative Asset Management</div>
+                  <h3 class="role-title">Research Consultant</h3>
+                  <div class="company-name">WorldQuant &bull; <span class="text-muted">Remote</span></div>
+                </div>
+                <div class="role-period">
+                  <span class="period-pill">August 2026 — Present</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="impact-list">
+                  <li>
+                    <strong>Algorithmic Alpha Research:</strong> Conduct quantitative research on predictive alpha signals using statistical analysis, mathematical time-series operators, and cross-sectional factor ranking across large equity datasets.
+                  </li>
+                  <li>
+                    <strong>Large-Scale Simulation & Optimization:</strong> Develop and backtest simulations on WorldQuant Brain platform, tuning alpha fitness, maximizing Sharpe ratio, and maintaining stringent portfolio neutralization limits.
+                  </li>
+                  <li>
+                    <strong>Signal Correlation & Neutralization:</strong> Apply multi-tier correlation analysis and risk factor neutralization (industry, market, sub-industry) to ensure pure uncorrelated alpha generation.
+                  </li>
+                </ul>
+
+                <div class="card-footer-tags">
+                  <span class="tag">Alpha Strategies</span>
+                  <span class="tag">Time-Series Modeling</span>
+                  <span class="tag">Sharpe Optimization</span>
+                  <span class="tag">Signal Ranking</span>
+                  <span class="tag">Correlation Analysis</span>
+                  <span class="tag">Portfolio Neutralization</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: GemEdge -->
+          <div class="timeline-item">
+            <div class="timeline-dot ai-dot"></div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-header">
+                <div>
+                  <div class="company-badge ai-tag">Enterprise AI & Intelligence</div>
+                  <h3 class="role-title">AI/ML Engineer Intern</h3>
+                  <div class="company-name">GemEdge Procurement Intelligence Pvt. Ltd. &bull; <span class="text-muted">Remote</span></div>
+                </div>
+                <div class="role-period">
+                  <span class="period-pill">July 2026 — August 2026</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="impact-list">
+                  <li>
+                    <strong>LLM Pricing Intelligence:</strong> Integrated Google Gemini LLMs for contextual pricing intelligence and predictive bid-price estimations using least-squares regression modeling on historical procurement datasets.
+                  </li>
+                  <li>
+                    <strong>Feature Engineering & Normalization:</strong> Engineered feature extraction and normalization pipelines for high-accuracy vendor–tender semantic matching across multi-attribute requirements.
+                  </li>
+                  <li>
+                    <strong>Intelligent Bid Optimization:</strong> Formulated strategic bid pricing optimization algorithms to increase win probability and margin predictability for competitive tenders.
+                  </li>
+                </ul>
+
+                <div class="card-footer-tags">
+                  <span class="tag">Gemini LLMs</span>
+                  <span class="tag">Least-Squares Regression</span>
+                  <span class="tag">Feature Engineering</span>
+                  <span class="tag">Vendor-Tender Matching</span>
+                  <span class="tag">Pricing Intelligence</span>
+                  <span class="tag">Pipeline Optimization</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Engineered Projects & Systems</h2>
+          <p class="section-lead">
+            Production-ready AI applications, computer vision models, and systematic quantitative tools.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: NextFlow -->
+          <div class="project-card glass-panel">
+            <div class="project-banner visual-flow-banner">
+              <div class="project-badge">Multimodal AI Platform</div>
+              <div class="project-canvas-preview">
+                <div class="mock-node mock-node-1">
+                  <span class="mock-node-dot"></span>
+                  <span class="mock-node-title">Prompt Input</span>
+                </div>
+                <div class="mock-flow-line"></div>
+                <div class="mock-node mock-node-2">
+                  <span class="mock-node-dot"></span>
+                  <span class="mock-node-title">Groq LLM Node</span>
+                </div>
+                <div class="mock-flow-line"></div>
+                <div class="mock-node mock-node-3">
+                  <span class="mock-node-dot"></span>
+                  <span class="mock-node-title">Output Response</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-date">April 2026 &bull; Production Deployment</div>
+              <h3 class="project-title">NextFlow: Visual AI Workflow Builder</h3>
+              <p class="project-desc">
+                A visual AI workflow orchestration engine inspired by Krea.ai. Built with Next.js, React Flow, and TypeScript, featuring 6 custom node types, drag-and-drop DAG execution, and type-safe schema connections.
+              </p>
+
+              <div class="project-features">
+                <div class="feature-item">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Real-time DAG execution engine with parallel multimodal workflow support</span>
+                </div>
+                <div class="feature-item">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Groq API, Trigger.dev background workers, Transloadit media processing</span>
+                </div>
+                <div class="feature-item">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Clerk authentication, PostgreSQL + Prisma ORM, JSON export/import & history</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">React Flow</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Groq API</span>
+                <span class="tech-tag">Trigger.dev</span>
+                <span class="tech-tag">Prisma</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Vercel</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#lab-nextflow" class="btn btn-sm btn-primary">
+                  <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                  <span>Try Simulator</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="btn btn-sm btn-glass">
+                  <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: CNN CIFAR-10 -->
+          <div class="project-card glass-panel">
+            <div class="project-banner cnn-vision-banner">
+              <div class="project-badge cnn-badge">Deep Learning & Computer Vision</div>
+              <div class="project-cnn-preview">
+                <div class="cnn-layers-mock">
+                  <div class="layer-block input-layer"><span>32x32x3</span></div>
+                  <div class="layer-arrow">&rarr;</div>
+                  <div class="layer-block conv-layer"><span>Conv2D + ReLU</span></div>
+                  <div class="layer-arrow">&rarr;</div>
+                  <div class="layer-block pool-layer"><span>MaxPool + Dropout</span></div>
+                  <div class="layer-arrow">&rarr;</div>
+                  <div class="layer-block dense-layer"><span>Dense (10)</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-date">July 2026 &bull; Research & Evaluation</div>
+              <h3 class="project-title">CNN Image Classification on CIFAR-10</h3>
+              <p class="project-desc">
+                Comparative architecture exploration of Deep Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) for 10-class object recognition on CIFAR-10, attaining ~68% test accuracy through systematic tuning.
+              </p>
+
+              <div class="project-features">
+                <div class="feature-item">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Architectural optimization with Dropout regularization to mitigate overfitting</span>
+                </div>
+                <div class="feature-item">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Diagnostic evaluation using loss/accuracy trajectories and confusion matrices</span>
+                </div>
+                <div class="feature-item">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Granular class-wise precision, recall, and F1-score error mode analysis</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Deep Learning (DL)</span>
+                <span class="tech-tag">Keras / TensorFlow</span>
+                <span class="tech-tag">CNN Architectures</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">Matplotlib</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#lab-cifar" class="btn btn-sm btn-primary">
+                  <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                  <span>Interactive Visualizer</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="btn btn-sm btn-glass">
+                  <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE LABS SECTION -->
+    <section class="section bg-surface" id="interactive-lab">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag lab-tag">Experience Live Engineering</span>
+          <h2 class="section-title">Interactive Labs & Simulators</h2>
+          <p class="section-lead">
+            Interact with live visual representations of my core domains: quantitative alpha simulation, visual AI pipeline orchestration, and computer vision diagnostics.
+          </p>
+        </div>
+
+        <!-- LAB SELECTOR TABS -->
+        <div class="lab-tabs-container">
+          <button class="lab-tab-btn active" data-lab="alpha">
+            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+            <span>Quant Alpha Backtest Simulator</span>
+          </button>
+          <button class="lab-tab-btn" data-lab="nextflow" id="lab-nextflow">
+            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle><path d="M3 12h3m12 0h3M12 3v3m0 12v3"></path></svg>
+            <span>NextFlow DAG Execution Engine</span>
+          </button>
+          <button class="lab-tab-btn" data-lab="cifar" id="lab-cifar">
+            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+            <span>CIFAR-10 Feature & Matrix Inspector</span>
+          </button>
+        </div>
+
+        <!-- LAB 1: QUANT ALPHA SIMULATOR -->
+        <div class="lab-panel active" id="labPanelAlpha">
+          <div class="lab-grid">
+            <div class="lab-controls glass-panel">
+              <h4 class="lab-title">Alpha Expression Parameters</h4>
+              
+              <div class="form-group">
+                <label>Alpha Signal Operator</label>
+                <select id="alphaOperator" class="select-input">
+                  <option value="momentum">Rank(Ts_ArgMax(Volume, 10))</option>
+                  <option value="mean_revert">Rank(-1 * Ts_Correlation(Close, Volume, 20))</option>
+                  <option value="volatility">Ts_Rank(StdDev(Returns, 5) / Mean(Returns, 20), 10)</option>
+                  <option value="volume_weighted">Rank(Close - Ts_Mean(Close, 30)) * Ts_Rank(Volume, 15)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Lookback Window (Days): <span id="lookbackVal" class="slider-badge">20</span></label>
+                <input type="range" id="lookbackSlider" min="5" max="60" value="20" class="slider-input">
+              </div>
+
+              <div class="form-group">
+                <label>Portfolio Neutralization</label>
+                <div class="radio-pill-group">
+                  <label class="radio-pill">
+                    <input type="radio" name="neutral" value="market" checked>
+                    <span>Market</span>
+                  </label>
+                  <label class="radio-pill">
+                    <input type="radio" name="neutral" value="subindustry">
+                    <span>Sub-Industry</span>
+                  </label>
+                  <label class="radio-pill">
+                    <input type="radio" name="neutral" value="sector">
+                    <span>Sector</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Investment Universe</label>
+                <select id="alphaUniverse" class="select-input">
+                  <option value="top500">Top 500 Liquid Equities</option>
+                  <option value="top3000">Top 3000 Broad Market</option>
+                </select>
+              </div>
+
+              <button id="runAlphaBtn" class="btn btn-primary w-full mt-4">
+                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                <span>Run Alpha Simulation</span>
+              </button>
+            </div>
+
+            <div class="lab-viewport glass-panel">
+              <div class="viewport-header">
+                <div>
+                  <span class="viewport-title">Cumulative Performance (Equity Curve & PnL)</span>
+                  <div class="viewport-sub" id="alphaFormulaDisplay">Current: Rank(Ts_ArgMax(Volume, 10))</div>
+                </div>
+                <div class="live-indicator">
+                  <span class="pulse-dot"></span> Simulated Engine
+                </div>
+              </div>
+
+              <div class="canvas-wrapper">
+                <canvas id="alphaChartCanvas"></canvas>
+              </div>
+
+              <div class="quant-stats-bar">
+                <div class="stat-cell">
+                  <span class="stat-name">Sharpe Ratio</span>
+                  <span class="stat-number positive" id="statSharpe">2.48</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-name">Fitness</span>
+                  <span class="stat-number positive" id="statFitness">1.94</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-name">Annualized Return</span>
+                  <span class="stat-number positive" id="statReturn">+26.4%</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-name">Max Drawdown</span>
+                  <span class="stat-number negative" id="statDrawdown">-4.1%</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-name">Daily Turnover</span>
+                  <span class="stat-number" id="statTurnover">14.2%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAB 2: NEXTFLOW DAG ENGINE -->
+        <div class="lab-panel" id="labPanelNextFlow">
+          <div class="dag-workspace glass-panel">
+            <div class="dag-toolbar">
+              <div class="dag-info">
+                <strong>NextFlow DAG Orchestrator:</strong> Multimodal Content Generation & Pipeline Execution
+              </div>
+              <button id="executeDagBtn" class="btn btn-primary btn-sm">
+                <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                <span>Execute Pipeline DAG</span>
+              </button>
+            </div>
+
+            <div class="dag-canvas-area" id="dagCanvasArea">
+              <!-- Visual Node 1: Input -->
+              <div class="dag-node" id="nodeInput" style="left: 4%; top: 35%;">
+                <div class="node-head input-head">
+                  <span class="node-type">Input Node</span>
+                  <span class="node-state-pill ready">Ready</span>
+                </div>
+                <div class="node-body">
+                  <label class="node-sublabel">Prompt Specification</label>
+                  <div class="node-content-preview">"Explain quantum entanglement for high-frequency trading"</div>
+                </div>
+                <div class="node-port out-port"></div>
+              </div>
+
+              <!-- Visual Node 2: Groq LLM -->
+              <div class="dag-node" id="nodeLlm" style="left: 36%; top: 15%;">
+                <div class="node-port in-port"></div>
+                <div class="node-head llm-head">
+                  <span class="node-type">Groq LLM (LLaMA-3)</span>
+                  <span class="node-state-pill ready">Idle</span>
+                </div>
+                <div class="node-body">
+                  <label class="node-sublabel">Model & Temperature</label>
+                  <div class="node-content-preview">llama3-70b-8192 &bull; Temp: 0.2 &bull; 800 tokens/s</div>
+                </div>
+                <div class="node-port out-port"></div>
+              </div>
+
+              <!-- Visual Node 3: Transloadit Media Filter -->
+              <div class="dag-node" id="nodeMedia" style="left: 36%; top: 58%;">
+                <div class="node-port in-port"></div>
+                <div class="node-head media-head">
+                  <span class="node-type">Transloadit Processing</span>
+                  <span class="node-state-pill ready">Idle</span>
+                </div>
+                <div class="node-body">
+                  <label class="node-sublabel">Encoding & Watermarking</label>
+                  <div class="node-content-preview">WebP Vector Normalization &bull; Auto-crop</div>
+                </div>
+                <div class="node-port out-port"></div>
+              </div>
+
+              <!-- Visual Node 4: Synthesis & Output -->
+              <div class="dag-node" id="nodeOutput" style="left: 72%; top: 35%;">
+                <div class="node-port in-port"></div>
+                <div class="node-head output-head">
+                  <span class="node-type">Synthesizer & DB Sink</span>
+                  <span class="node-state-pill ready">Waiting</span>
+                </div>
+                <div class="node-body">
+                  <label class="node-sublabel">Postgres + Prisma Persistence</label>
+                  <div class="node-content-preview" id="dagFinalOutput">Payload ready for DAG execution</div>
+                </div>
+              </div>
+
+              <!-- SVG Connection curves -->
+              <svg class="dag-svg-overlay">
+                <path id="wire1" d="M 180 180 C 240 180, 240 100, 310 100" class="dag-wire" />
+                <path id="wire2" d="M 180 180 C 240 180, 240 260, 310 260" class="dag-wire" />
+                <path id="wire3" d="M 520 100 C 580 100, 580 180, 630 180" class="dag-wire" />
+                <path id="wire4" d="M 520 260 C 580 260, 580 180, 630 180" class="dag-wire" />
+              </svg>
+            </div>
+
+            <!-- Real-time Console Log -->
+            <div class="dag-console-log">
+              <div class="console-head">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
+                <span class="console-title">Execution Event Stream &bull; Trigger.dev Worker</span>
+              </div>
+              <div class="console-body" id="dagConsoleStream">
+                <div class="log-entry text-muted">[System] Ready to run workflow. Click "Execute Pipeline DAG".</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAB 3: CIFAR-10 INSPECTOR -->
+        <div class="lab-panel" id="labPanelCifar">
+          <div class="cifar-lab-grid">
+            <div class="cifar-selector-box glass-panel">
+              <h4 class="lab-title">Test Image Input (CIFAR-10)</h4>
+              <p class="text-sm text-muted mb-4">Select a test sample to observe neural feature map activation and softmax class likelihood:</p>
+              
+              <div class="cifar-classes-picker" id="cifarPicker">
+                <button class="cifar-class-btn active" data-class="airplane" data-acc="84">
+                  <span class="class-emoji">&#9992;&#65039;</span>
+                  <span class="class-title">Airplane</span>
+                </button>
+                <button class="cifar-class-btn" data-class="automobile" data-acc="88">
+                  <span class="class-emoji">&#128663;</span>
+                  <span class="class-title">Automobile</span>
+                </button>
+                <button class="cifar-class-btn" data-class="bird" data-acc="59">
+                  <span class="class-emoji">&#128038;</span>
+                  <span class="class-title">Bird</span>
+                </button>
+                <button class="cifar-class-btn" data-class="cat" data-acc="52">
+                  <span class="class-emoji">&#128049;</span>
+                  <span class="class-title">Cat</span>
+                </button>
+                <button class="cifar-class-btn" data-class="deer" data-acc="66">
+                  <span class="class-emoji">&#129420;</span>
+                  <span class="class-title">Deer</span>
+                </button>
+                <button class="cifar-class-btn" data-class="dog" data-acc="58">
+                  <span class="class-emoji">&#128054;</span>
+                  <span class="class-title">Dog</span>
+                </button>
+                <button class="cifar-class-btn" data-class="frog" data-acc="79">
+                  <span class="class-emoji">&#128056;</span>
+                  <span class="class-title">Frog</span>
+                </button>
+                <button class="cifar-class-btn" data-class="horse" data-acc="76">
+                  <span class="class-emoji">&#128052;</span>
+                  <span class="class-title">Horse</span>
+                </button>
+                <button class="cifar-class-btn" data-class="ship" data-acc="82">
+                  <span class="class-emoji">&#128674;</span>
+                  <span class="class-title">Ship</span>
+                </button>
+                <button class="cifar-class-btn" data-class="truck" data-acc="81">
+                  <span class="class-emoji">&#128666;</span>
+                  <span class="class-title">Truck</span>
+                </button>
+              </div>
+
+              <div class="cifar-diagnostics-box mt-4">
+                <div class="diag-header">Architecture Specs</div>
+                <div class="diag-stat"><span>Model:</span> <strong>3-Stage ConvNet + Dropout(0.25, 0.5)</strong></div>
+                <div class="diag-stat"><span>Optimizer:</span> <strong>Adam (lr=0.001) + Categorical Crossentropy</strong></div>
+                <div class="diag-stat"><span>Evaluation:</span> <strong>~68% Test Accuracy on 10,000 holdout</strong></div>
+              </div>
+            </div>
+
+            <div class="cifar-results-box glass-panel">
+              <div class="cifar-visual-stage">
+                <div class="sample-image-preview">
+                  <div class="preview-badge" id="cifarSelectedLabel">Airplane (Sample #142)</div>
+                  <div class="pixel-mock-grid" id="pixelMockVisual">
+                    <div class="pixel-icon" id="cifarBigEmoji">&#9992;&#65039;</div>
+                  </div>
+                  <div class="feature-maps-strip">
+                    <span class="text-xs text-muted">Conv2D Kernel Activations:</span>
+                    <div class="feature-kernels">
+                      <div class="kernel k1"></div>
+                      <div class="kernel k2"></div>
+                      <div class="kernel k3"></div>
+                      <div class="kernel k4"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="probabilities-container">
+                  <h4 class="prob-title">Softmax Probability Distribution</h4>
+                  <div class="prob-bars-list" id="probBarsList">
+                    <!-- Dynamic probability bars filled via JS -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS MATRIX SECTION -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Expertise & Tooling</h2>
+          <p class="section-lead">
+            Curated toolkit spanning Artificial Intelligence, Quantitative Analysis, Systems Engineering, and Core Computer Science.
+          </p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="skill-filters">
+          <button class="skill-filter-btn active" data-filter="all">All Domains</button>
+          <button class="skill-filter-btn" data-filter="ai">Artificial Intelligence & ML</button>
+          <button class="skill-filter-btn" data-filter="quant">Quantitative & Math</button>
+          <button class="skill-filter-btn" data-filter="software">Software Engineering</button>
+          <button class="skill-filter-btn" data-filter="core">Core CS & Algorithms</button>
+        </div>
+
+        <div class="skills-catalog">
+          <!-- AI & ML -->
+          <div class="skill-domain-card glass-panel" data-category="ai">
+            <div class="domain-header">
+              <div class="domain-icon ai-accent">
+                <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+              </div>
+              <div>
+                <h3>Artificial Intelligence & Deep Learning</h3>
+                <span class="domain-sub">Neural architectures, representation learning, and LLMs</span>
+              </div>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="skill-badge highlight">Deep Learning (DL)</span>
+              <span class="skill-badge highlight">Keras & TensorFlow</span>
+              <span class="skill-badge highlight">Machine Learning</span>
+              <span class="skill-badge highlight">Retrieval-Augmented Generation (RAG)</span>
+              <span class="skill-badge">Gemini LLM Integration</span>
+              <span class="skill-badge">Natural Language Processing (NLP)</span>
+              <span class="skill-badge">Convolutional Networks (CNNs)</span>
+              <span class="skill-badge">Dropout Regularization</span>
+              <span class="skill-badge">Feature Engineering</span>
+              <span class="skill-badge">Confusion Matrix Analysis</span>
+            </div>
+          </div>
+
+          <!-- Quantitative & Math -->
+          <div class="skill-domain-card glass-panel" data-category="quant">
+            <div class="domain-header">
+              <div class="domain-icon quant-accent">
+                <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              </div>
+              <div>
+                <h3>Quantitative Research & Mathematics</h3>
+                <span class="domain-sub">Statistical modeling, alpha development, and asset simulation</span>
+              </div>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="skill-badge highlight">Algorithmic Alpha Strategies</span>
+              <span class="skill-badge highlight">WorldQuant Brain</span>
+              <span class="skill-badge highlight">Sharpe Ratio Optimization</span>
+              <span class="skill-badge highlight">Time-Series Operators</span>
+              <span class="skill-badge">Mathematical Modeling</span>
+              <span class="skill-badge">Signal Ranking</span>
+              <span class="skill-badge">Correlation Analysis</span>
+              <span class="skill-badge">Portfolio Neutralization</span>
+              <span class="skill-badge">Least-Squares Regression</span>
+              <span class="skill-badge">Risk-Adjusted Returns</span>
+            </div>
+          </div>
+
+          <!-- Software Development -->
+          <div class="skill-domain-card glass-panel" data-category="software">
+            <div class="domain-header">
+              <div class="domain-icon code-accent">
+                <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <div>
+                <h3>Software & Systems Engineering</h3>
+                <span class="domain-sub">Modern full-stack, distributed pipelines, and cloud APIs</span>
+              </div>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="skill-badge highlight">TypeScript</span>
+              <span class="skill-badge highlight">JavaScript (ES6+)</span>
+              <span class="skill-badge highlight">Next.js & React</span>
+              <span class="skill-badge highlight">React Flow (DAGs)</span>
+              <span class="skill-badge">Node.js & Express</span>
+              <span class="skill-badge">PostgreSQL & Prisma</span>
+              <span class="skill-badge">MySQL</span>
+              <span class="skill-badge">Tailwind CSS</span>
+              <span class="skill-badge">Trigger.dev & Transloadit</span>
+              <span class="skill-badge">Clerk Auth & Vercel</span>
+            </div>
+          </div>
+
+          <!-- Core CS & Data Tools -->
+          <div class="skill-domain-card glass-panel" data-category="core">
+            <div class="domain-header">
+              <div class="domain-icon acad-accent">
+                <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <h3>Core Computer Science & Data Tools</h3>
+                <span class="domain-sub">Algorithmic complexity, numerical computing, and data wrangling</span>
+              </div>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="skill-badge highlight">Data Structures & Algorithms</span>
+              <span class="skill-badge highlight">LeetCode (200+ Solved)</span>
+              <span class="skill-badge highlight">Python</span>
+              <span class="skill-badge highlight">NumPy & Pandas</span>
+              <span class="skill-badge">Time & Space Complexity Optimization</span>
+              <span class="skill-badge">Graph & Tree Traversal</span>
+              <span class="skill-badge">Dynamic Programming</span>
+              <span class="skill-badge">Git & Version Control</span>
+              <span class="skill-badge">Linux / Unix Shell</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HONORS & EXTRA-CURRICULAR SECTION -->
+    <section class="section bg-surface" id="honors">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Distinctions</span>
+          <h2 class="section-title">Certifications, Honors & Leadership</h2>
+          <p class="section-lead">
+            Global recognitions, hackathon distinctions, and active campus leadership.
+          </p>
+        </div>
+
+        <div class="honors-grid">
+          <!-- Honor 1: HPAIR -->
+          <div class="honor-card glass-panel">
+            <div class="honor-badge-icon hpair-gold">
+              <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            </div>
+            <div class="honor-date">August 2026</div>
+            <h3 class="honor-title">HPAIR ACONF Delegate</h3>
+            <div class="honor-org">The Harvard College Project for Asian and International Relations (HPAIR)</div>
+            <p class="honor-desc">
+              Selected by the Harvard College Project for Asian and International Relations admissions committee as a delegate for HPAIR ACONF 2026, engaging in global policy, technological transformation, and leadership discourse.
+            </p>
+            <div class="honor-pill">Selective Global Forum</div>
+          </div>
+
+          <!-- Honor 2: WorldQuant IQC -->
+          <div class="honor-card glass-panel">
+            <div class="honor-badge-icon quant-purple">
+              <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <div class="honor-date">June 2026</div>
+            <h3 class="honor-title">International Quant Championship (IQC)</h3>
+            <div class="honor-org">WorldQuant Brain</div>
+            <p class="honor-desc">
+              Qualified for Stage 2 of the World Quant Championship, ranking in the <strong>top 8% of teams worldwide</strong> by formulating high-information alpha signals that maintained consistent profitability and low turnover across global market universes.
+            </p>
+            <div class="honor-pill">Top 8% Worldwide</div>
+          </div>
+
+          <!-- Honor 3: Robotics Club VP & Leadership -->
+          <div class="honor-card glass-panel">
+            <div class="honor-badge-icon blue-accent">
+              <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
+            <div class="honor-date">Campus Leadership</div>
+            <h3 class="honor-title">Vice President & 2x Competitions Lead</h3>
+            <div class="honor-org">Robotics Club, Newton School of Technology</div>
+            <p class="honor-desc">
+              Leading technical hardware/software robotics projects, managing cross-functional competition divisions, mentoring junior engineers, and organizing competitive hackathon representations.
+            </p>
+            <div class="honor-pill">Executive Leadership</div>
+          </div>
+
+          <!-- Honor 4: Hackathons & Athletics -->
+          <div class="honor-card glass-panel">
+            <div class="honor-badge-icon green-accent">
+              <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+            </div>
+            <div class="honor-date">Competitions & Sports</div>
+            <h3 class="honor-title">Google Girl Hackathon & Student Athlete</h3>
+            <div class="honor-org">Google Girl Hackathon 2025 & Big Code 2026</div>
+            <p class="honor-desc">
+              Successful participant in Google Girl Hackathon 2025 and Big Code 2026. Student athlete in competitive lawn tennis, cultivating resilient mental stamina, strategic agility, and collaborative leadership under pressure.
+            </p>
+            <div class="honor-pill">Athlete & Competitor</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box glass-panel">
+          <div class="contact-info">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="contact-heading">Looking for an engineer who blends quant rigor with AI execution?</h2>
+            <p class="contact-sub">
+              I am always eager to discuss innovative opportunities in Quantitative Research, Machine Learning Engineering, 
+              and Advanced Systems. Let's start a conversation.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="contact-detail-row">
+                <div class="c-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <span class="detail-label">Direct Email</span>
+                  <div class="detail-value-wrap">
+                    <a href="mailto:vani.vashishtha2024@nst.rishihood.edu.in" class="detail-link">vani.vashishtha2024@nst.rishihood.edu.in</a>
+                    <button class="copy-btn-inline" id="copyEmailBtn" title="Copy to clipboard">Copy</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-detail-row">
+                <div class="c-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <span class="detail-label">Phone</span>
+                  <a href="tel:+917819866846" class="detail-link">+91 7819866846</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-row">
+                <div class="c-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <span class="detail-label">Location & University</span>
+                  <span class="detail-static">Rishihood University, Sonipat / Delhi NCR, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links-footer">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="LinkedIn">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="GitHub">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="LeetCode">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </a>
+              <a href="https://kaggle.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="Kaggle">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v8"></path><path d="M8 12h8"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-side">
+            <form id="contactForm" class="contact-form">
+              <h3 class="form-title">Send a Direct Message</h3>
+              
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="senderName">Your Name</label>
+                  <input type="text" id="senderName" required placeholder="Dr. Jane Doe">
+                </div>
+                <div class="form-field">
+                  <label for="senderEmail">Your Email</label>
+                  <input type="email" id="senderEmail" required placeholder="jane@worldquant.com">
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="senderSubject">Subject / Opportunity</label>
+                <input type="text" id="senderSubject" required placeholder="AI/ML Engineer Role / Quantitative Collab">
+              </div>
+
+              <div class="form-field">
+                <label for="senderMessage">Message</label>
+                <textarea id="senderMessage" rows="4" required placeholder="Hi Vani, I saw your alpha research and NextFlow project and would love to chat..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-full">
+                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <div class="footer-logo">Vani Vashishtha</div>
+        <p class="footer-tagline">AIML Engineer & Quantitative Researcher</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#interactive-lab">Labs</a>
+        <a href="#skills">Skills</a>
+        <a href="#honors">Honors</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-right">
+        <p class="footer-copy">&copy; 2026 Vani Vashishtha. Built for high performance & rigor.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RESUME MODAL -->
+  <div class="modal-backdrop" id="resumeModal" aria-hidden="true">
+    <div class="modal-dialog glass-panel">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <h3>Vani Vashishtha — Official Resume</h3>
+        </div>
+        <div class="modal-actions">
+          <button class="btn btn-sm btn-primary" onclick="window.print()">
+            <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            <span>Print / Save as PDF</span>
+          </button>
+          <button class="btn-icon modal-close" id="closeModalBtn" aria-label="Close modal">&times;</button>
+        </div>
+      </div>
+
+      <div class="modal-body printable-resume">
+        <div class="resume-sheet">
+          <div class="resume-sheet-header">
+            <h1 class="r-name">Vani Vashishtha</h1>
+            <div class="r-contact">
+              <span>+91 7819866846</span> &bull; 
+              <span>vani.vashishtha2024@nst.rishihood.edu.in</span> &bull; 
+              <span>LinkedIn</span> &bull; 
+              <span>GitHub</span> &bull; 
+              <span>LeetCode (200+)</span> &bull; 
+              <span>Kaggle</span>
+            </div>
+          </div>
+
+          <div class="r-section">
+            <h2 class="r-heading">PROFESSIONAL SUMMARY</h2>
+            <p class="r-text">
+              AIML Engineer with a research-oriented mindset and hands-on experience in building intelligent systems and user-focused applications. Strong in problem solving with 200+ problems solved on LeetCode.
+            </p>
+          </div>
+
+          <div class="r-section">
+            <h2 class="r-heading">EDUCATION</h2>
+            <div class="r-table-row">
+              <div><strong>Bachelor of Technology (AI & ML)</strong><br><span class="text-muted">Newton School of Technology, Rishihood University</span></div>
+              <div class="text-right"><strong>CGPA: 8.6 / 10.0</strong><br><span class="text-muted">2024 — 2028</span></div>
+            </div>
+          </div>
+
+          <div class="r-section">
+            <h2 class="r-heading">EXPERIENCE</h2>
+            <div class="r-block">
+              <div class="r-block-head">
+                <div><strong>Research Consultant</strong> &bull; WorldQuant</div>
+                <div class="text-muted">August 2026 — Present | Remote</div>
+              </div>
+              <ul class="r-bullets">
+                <li>Conduct quantitative research on algorithmic alpha strategies using statistical analysis, time-series operators, and mathematical modeling to identify predictive patterns in financial markets.</li>
+                <li>Develop and evaluate large-scale alpha simulations, optimizing Sharpe ratio, fitness, and risk-adjusted returns through signal ranking, correlation analysis, and portfolio neutralization techniques.</li>
+              </ul>
+            </div>
+
+            <div class="r-block mt-3">
+              <div class="r-block-head">
+                <div><strong>AI/ML Engineer Intern</strong> &bull; GemEdge Procurement Intelligence Pvt. Ltd.</div>
+                <div class="text-muted">July 2026 — August 2026 | Remote</div>
+              </div>
+              <ul class="r-bullets">
+                <li>Integrated Gemini LLMs for AI-driven pricing intelligence and applied least-squares regression to estimate bid prices from historical data.</li>
+                <li>Developed feature engineering and normalization pipelines for vendor–tender matching, and implemented intelligent bid optimization strategies.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="r-section">
+            <h2 class="r-heading">PROJECTS</h2>
+            <div class="r-block">
+              <div class="r-block-head">
+                <div><strong>NextFlow : AI WorkFlow Builder</strong> (Next.js, React Flow, TypeScript, Tailwind CSS, Groq, Prisma)</div>
+                <div class="text-muted">April 2026</div>
+              </div>
+              <ul class="r-bullets">
+                <li>Built a Krea.ai-inspired visual AI workflow builder with 6 custom node types, drag-and-drop DAG execution, and type-safe connections.</li>
+                <li>Integrated Groq API, Trigger.dev, Transloadit, Clerk, and PostgreSQL+Prisma for AI execution, media processing, auth, and workflow persistence. Deployed on Vercel with real-time feedback, history, JSON import/export, and multimodal workflow support.</li>
+              </ul>
+            </div>
+
+            <div class="r-block mt-3">
+              <div class="r-block-head">
+                <div><strong>CNN Prediction on CIFAR-10 Database</strong> (Deep Learning, Keras, CNNs)</div>
+                <div class="text-muted">July 2026</div>
+              </div>
+              <ul class="r-bullets">
+                <li>Designed and evaluated ANN and CNN models on CIFAR-10 dataset, achieving ~68% test accuracy with architectural tuning and Dropout regularization.</li>
+                <li>Analyzed performance using accuracy/loss curves, confusion matrices, and classification reports for class-wise insights.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="r-section">
+            <h2 class="r-heading">CERTIFICATIONS & HONORS</h2>
+            <ul class="r-bullets">
+              <li><strong>HPAIR ACONF</strong> (The Harvard College Project for Asian and International Relations) — Selected as Delegate for HPAIR ACONF 2026 by Harvard College admissions team (August 2026).</li>
+              <li><strong>International Quant Championship (WorldQuant Brain)</strong> — Qualified for Stage 2 of World Quant Championship reaching top 8% teams worldwide (June 2026).</li>
+            </ul>
+          </div>
+
+          <div class="r-section">
+            <h2 class="r-heading">TECHNICAL SKILLS</h2>
+            <ul class="r-bullets">
+              <li><strong>Artificial Intelligence:</strong> Keras, Deep Learning (DL), Machine Learning, Python, RAG, NumPy, Pandas, Natural Language Processing.</li>
+              <li><strong>Software Development:</strong> JavaScript, TypeScript, Express JS, Node.js, React, Data Structures and Algorithms (200+ LeetCode), MySQL.</li>
+            </ul>
+          </div>
+
+          <div class="r-section">
+            <h2 class="r-heading">EXTRA-CURRICULAR ACTIVITIES & LEADERSHIP</h2>
+            <ul class="r-bullets">
+              <li>Experienced leader and student athlete with expertise in robotics and quantitative analysis, serving as Vice President of the Robotics Club and a two-time Competitions Department Lead.</li>
+              <li>Cleared Round 1 of World Quant Championship, HPAIR 2026 Delegate, Successful participant in Google Girl Hackathon 2025 and Big Code 2026, leveraging active club involvement and lawn tennis to cultivate advanced technical problem-solving, strategic teamwork, and resilient leadership skills.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast-notification" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
